@@ -1,0 +1,13 @@
+{
+    "name": "Jobcase plugin",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Jobcase plugin to enable pagination and search",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["scripting", "webNavigation", "storage"],
+    "host_permissions": ["https://jobcase.com/*"],
+    "action": {}
+  }
+  
